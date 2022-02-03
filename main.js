@@ -1,7 +1,16 @@
+
+
 function testingNamedFunctions() {
-    var greeting = "Morning Master";
-    console.log(greeting);
-}
+    
+    const greeting = ["Morning Master", "You stupid fuck!", "Do you think you're good...??", "Such a looser!", "Dafuq are you doing???" ];
+
+    const random = Math.floor(Math.random() * greeting.length);
+    console.log(random, greeting[random]);
+  
+}    
+
+
+
 let sendButton = document.getElementById('send');
 let form = document.getElementById('form');
 
